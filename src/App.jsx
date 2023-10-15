@@ -5,6 +5,9 @@ import { aiRequest } from "./services/openai.config";
 import { Documentation } from "./components/Documentation";
 import { Loading } from "./components/Loading";
 
+// Para rodar o App:
+// escreve: npm run dev
+
 function App() {
   const [theme, setTheme] = useState("");
   const [loading, setLoading] = useState(false);
